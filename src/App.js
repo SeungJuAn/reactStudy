@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
+  let mainData = '짜장면 너무 배불러'
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className = "black-nav">
+          <div>테스트 개발</div>
+        </div>
+        <div className = 'list'>
+          <h3>mainData</h3>
+          <p>하지만 맛잇어</p>
+        </div>
     </div>
   );
 }
